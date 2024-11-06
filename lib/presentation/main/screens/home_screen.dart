@@ -19,7 +19,6 @@ class HomeScreen extends StatelessWidget {
                 'Recently Played',
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
               ),
-              // TODO: Use GridView.builder instead of SingleChildScrollView
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Row(

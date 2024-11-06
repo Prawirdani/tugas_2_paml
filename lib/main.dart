@@ -11,7 +11,6 @@ void main() {
   runApp(const MyApp());
 }
 
-// TODO: Color swatch?
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
