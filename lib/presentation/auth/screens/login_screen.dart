@@ -3,6 +3,7 @@ import 'package:tugas_2_paml/config/theme/colors.dart';
 import 'package:tugas_2_paml/core/navigator.dart';
 import 'package:tugas_2_paml/presentation/auth/screens/forgot_password_screen.dart';
 import 'package:tugas_2_paml/presentation/auth/screens/register_screen.dart';
+import 'package:tugas_2_paml/presentation/main/main_scaffold.dart';
 import 'package:tugas_2_paml/widgets/button.dart';
 import 'package:tugas_2_paml/widgets/input.dart';
 
@@ -23,6 +24,7 @@ class _LoginScreenState extends State<LoginScreen> {
       final email = _emailController.text;
       final password = _passwordController.text;
       print('Email: $email, Password: $password');
+      AppNavigator.pushReplacement(context, const MainScaffold());
     }
   }
 
